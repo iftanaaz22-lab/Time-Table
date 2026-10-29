@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Table</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="timetable-container">
+    
+    <!-- Header Section -->
+    <div class="header">
+      <h2>SRI VENKATESWARA COLLEGE (University of Delhi)</h2>
+      <p>Benito Juarez Road, Dhaula Kuan, New Delhi- 110021</p>
+      <h3>TIME TABLE – 2026-27 (Odd Semester)</h3>
+    </div>
+
+    <div class="meta-info">
+      <span><strong>Department: Mathematics</strong></span>
+      <span><strong>Semester: V A (Hons)</strong></span>
+    </div>
+
+    <!-- Main Schedule Table -->
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th rowspan="2" class="lunch-header">12.45 –<br>1.05 pm</th>
+          <th>5</th>
+          <th>6</th>
+          <th>7</th>
+          <th>8</th>
+        </tr>
+        <tr>
+          <th>8.45- 9.45 am</th>
+          <th>9.45-10.45 am</th>
+          <th>10.45-11.45 am</th>
+          <th>11.45-12.45 am/pm</th>
+          <th>01.05-2.05 pm</th>
+          <th>2.05-3.05 pm</th>
+          <th>3.05-4.05 pm</th>
+          <th>4.05-5.05 pm</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- MONDAY -->
+        <tr>
+          <th class="day">MONDAY</th>
+          <td class="green-cell">
+            GE V Th<br>A3/A4/B4<br>SS/NNK/VJ
+          </td>
+          <td>
+            DSC 14<br>209<br>RT
+          </td>
+          <td>
+            DSE 3<br>A4/B4/ICT lab III<br>RKB/PD/RQ
+          </td>
+          <td>
+            DSE 3<br>A4/B4/ICT lab III<br>RKB/PD/RQ
+          </td>
+          <td rowspan="5" class="lunch-col">
+            L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K
+          </td>
+          <td>
+            DSC 13<br>209<br>Guest 2
+          </td>
+          <td>
+            DSC 13 Tut<br>Lab III<br>Guest 2
+          </td>
+          <td>
+            DSC 15<br>102<br>PD
+          </td>
+          <td></td>
+        </tr>
+
+        <!-- TUESDAY -->
+        <tr>
+          <th class="day">TUESDAY</th>
+          <td>
+            DSE 3<br>102/209/A4<br>RKB/PD/RQ
+          </td>
+          <td>
+            DSC 15<br>209<br>PD
+          </td>
+          <td>
+            DSC 14 Tut<br>A4<br>RT
+          </td>
+          <td>*ECA</td>
+          <td colspan="2">
+            DSC 15 ICT Lab III<br>(Batch A + B)<br>
+            <div class="arrow-bar">&larr;&mdash;&mdash;&mdash;&mdash;&mdash;&rarr;</div>
+            PD/PR
+          </td>
+          <td>
+            DSC 13 tut<br>209<br>Guest 2
+          </td>
+          <td></td>
+        </tr>
+
+        <!-- WEDNESDAY -->
+        <tr>
+          <th class="day">WEDNESDAY</th>
+          <td>
+            DSC 13<br>209<br>Guest 2
+          </td>
+          <td>
+            DSC 14<br>A4<br>RT
+          </td>
+          <td>
+            DSC 14 Tut<br>A4<br>RT
+          </td>
+          <td></td>
+          <td colspan="2" class="green-cell">
+            GE V Practical ICT LAB III<br>
+            <div class="arrow-bar">&larr;&mdash;&mdash;&mdash;&mdash;&mdash;&rarr;</div>
+            SS
+          </td>
+          <td colspan="2" class="green-cell">
+            GE V Practical ICT LAB III<br>
+            <div class="arrow-bar">&larr;&mdash;&mdash;&mdash;&mdash;&mdash;&rarr;</div>
+            VJ
+          </td>
+        </tr>
+
+        <!-- THURSDAY -->
+        <tr>
+          <th class="day">THURSDAY</th>
+          <td class="green-cell">
+            GE V Th<br>A3/A4/B4<br>SS/NNK/VJ
+          </td>
+          <td>
+            DSC 14<br>209<br>RT
+          </td>
+          <td>
+            DSC 13<br>102<br>Guest 2
+          </td>
+          <td>
+            DSE 3 Tut<br>ICT Lab III<br>RKB
+          </td>
+          <td colspan="2">
+            DSC 15 ICT Lab III<br>(Batch A)<br>
+            <div class="arrow-bar">&larr;&mdash;&mdash;&mdash;&mdash;&mdash;&rarr;</div>
+            PR/SY
+          </td>
+          <td>
+            DSC 13 Tut<br>209<br>Guest 2
+          </td>
+          <td>*ECA</td>
+        </tr>
+
+        <!-- FRIDAY -->
+        <tr>
+          <th class="day">FRIDAY</th>
+          <td>
+            <div class="split-cell-top">DSE 3 (iv) TMH ICT Lab III<br>RQ/SS</div>
+            <div class="split-cell-bottom">DSE 3 Tut A4<br>RKB</div>
+          </td>
+          <td>
+            DSE 3 Tut<br>A4/B4<br>RKB/PD
+          </td>
+          <td>
+            DSC 15<br>A4<br>PD
+          </td>
+          <td>
+            DSC 14 Tut<br>A4<br>RT
+          </td>
+          <td colspan="4" class="blue-cell">
+            SEC Semester V ICT LAB III<br>
+            <div class="arrow-bar long-arrow">&larr;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&rarr;</div>
+            VJ/SY
+          </td>
+        </tr>
+
+        <!-- SATURDAY -->
+        <tr>
+          <th class="day">SATURDAY</th>
+          <td colspan="9"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Reference / Teacher Papers Table -->
+    <table class="legend-table">
+      <tr>
+        <th class="col-paper">Papers</th>
+        <th class="col-teacher">Name of the Teacher</th>
+        <th class="col-paper">Papers</th>
+        <th class="col-teacher">Name of the Teacher</th>
+      </tr>
+      <tr>
+        <td>DSC 13: Metric Spaces</td>
+        <td>Guest 2</td>
+        <td>DSE 3(iv): Research Methodology</td>
+        <td>Dr. Mohd. Rafiq</td>
+      </tr>
+      <tr>
+        <td>DSC 14: Ring Theory</td>
+        <td>Dr. Rahul Thakur</td>
+        <td>GE V(i): Numerical Analysis</td>
+        <td>Prof. Swarn Singh</td>
+      </tr>
+      <tr>
+        <td>DSC 15: Partial Differential Equations</td>
+        <td>Dr. P. Devaki</td>
+        <td>GE V(ii): Mathematical Python</td>
+        <td>Mr. Vikas Jorwal</td>
+      </tr>
+      <tr>
+        <td>DSE 3(i): Linear Programming and Applications</td>
+        <td>Prof. Ramesh Kumar Budhraja</td>
+        <td>GE V(iii): Elementary Mathematical Analysis</td>
+        <td>Dr. N.N. Kujur</td>
+      </tr>
+      <tr>
+        <td>DSE 3(ii): Mathematical Statistics</td>
+        <td>Dr. P. Devaki</td>
+        <td>SEC V: Financial Modelling with Excel</td>
+        <td>Mr. Vikas Jorwal</td>
+      </tr>
+    </table>
+
+    <div class="footer-sign">
+      Teacher-in-Charge Signature
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  padding: 25px;
+  color: #000;
+}
+
+.timetable-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.header p {
+  font-size: 0.9rem;
+  margin: 4px 0;
+}
+
+.header h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.meta-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  padding: 0 2px;
+}
+
+/* Schedule Table */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.schedule-table th, 
+.schedule-table td {
+  border: 1px solid #777;
+  padding: 6px 4px;
+  vertical-align: middle;
+}
+
+.schedule-table thead th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.schedule-table .day {
+  font-weight: bold;
+  width: 90px;
+  background-color: #fafafa;
+}
+
+.schedule-table .lunch-header {
+  width: 60px;
+}
+
+.schedule-table .lunch-col {
+  font-weight: bold;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  background-color: #ffffff;
+  width: 60px;
+}
+
+/* Color Highlights */
+.green-cell {
+  background-color: #bfe8b5;
+}
+
+.blue-cell {
+  background-color: #aed1ea;
+  font-weight: bold;
+}
+
+/* Continuous Lab Span Arrows */
+.arrow-bar {
+  font-size: 0.8rem;
+  letter-spacing: -2px;
+  color: #333;
+  margin: 3px 0;
+  display: block;
+  user-select: none;
+}
+
+.long-arrow {
+  letter-spacing: -1.5px;
+}
+
+/* Split Friday Cell */
+.split-cell-top {
+  border-bottom: 1px solid #777;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+
+/* Legend / Papers Table at Bottom */
+.legend-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  font-size: 0.75rem;
+}
+
+.legend-table th, 
+.legend-table td {
+  border: 1px solid #777;
+  padding: 4px 8px;
+  text-align: left;
+}
+
+.legend-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.col-paper {
+  width: 32%;
+}
+
+.col-teacher {
+  width: 18%;
+}
+
+.footer-sign {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding-right: 20px;
+}
